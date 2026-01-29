@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataFlow | Inteligência de Dados</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --gray: #64748b;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+        
+        body { background: var(--light); color: var(--dark); line-height: 1.6; }
+
+        header { padding: 1.5rem 10%; display: flex; justify-content: space-between; align-items: center; background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        
+        .hero { padding: 100px 10%; text-align: center; background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); }
+        .hero h1 { font-size: 3rem; margin-bottom: 1.5rem; color: var(--dark); }
+        .hero p { font-size: 1.25rem; color: var(--gray); max-width: 700px; margin: 0 auto 2rem; }
+        
+        .btn { padding: 12px 30px; border-radius: 6px; text-decoration: none; font-weight: 600; transition: 0.3s; display: inline-block; }
+        .btn-primary { background: var(--primary); color: #fff; }
+        .btn-primary:hover { opacity: 0.9; transform: translateY(-2px); }
+
+        .features { padding: 80px 10%; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+        .feature-card { padding: 30px; background: #fff; border-radius: 12px; border: 1px solid #e2e8f0; }
+        .feature-card h3 { margin-bottom: 1rem; color: var(--primary); }
+
+        footer { padding: 50px 10%; text-align: center; background: var(--dark); color: #fff; }
+        
+        @media (max-width: 768px) { .hero h1 { font-size: 2rem; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><strong>Data</strong>Flow</div>
+        <nav>
+            <a href="#" style="text-decoration:none; color:var(--dark); font-size:0.9rem;">Soluções</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Transforme dados brutos em decisões inteligentes</h1>
+        <p>Utilizamos algoritmos de alta performance e modelos preditivos para otimizar o ROI do seu negócio. Tecnologia de ponta aplicada ao crescimento real.</p>
+        <a href="#" class="btn btn-primary">Agendar Consultoria Técnica</a>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>Análise Preditiva</h3>
+            <p>Modelos estatísticos avançados para prever tendências de mercado e comportamento do consumidor.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Otimização de Performance</h3>
+            <p>Infraestrutura de dados focada em velocidade e escalabilidade para grandes volumes.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Visão Computacional</h3>
+            <p>Implementação de modelos de reconhecimento e automação baseados em imagens.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 DataFlow Inteligência. Desenvolvido com foco em performance.</p>
+    </footer>
+
+</body>
+</html>
